@@ -1,5 +1,7 @@
 package algorithmStudy;
 
+import java.util.Stack;
+
 public class ProgrammersTriangle {
 	public int solution(int[][] triangle) {
 		for (int i = 0; i < triangle.length-1; i++) {
@@ -19,6 +21,7 @@ public class ProgrammersTriangle {
 				answer = triangle[triangle.length-1][i];
 			}
 		}
+		
 		return answer;
 		
 	}
